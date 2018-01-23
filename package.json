@@ -1,6 +1,6 @@
 {
   "name": "cm-inline-complete",
-  "version": "1.0.2",
+  "version": "1.1.0",
   "description": "Inline autocomplete for CodeMirror based on Chrome devtools",
   "main": "dist/bundle.js",
   "scripts": {
