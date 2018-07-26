@@ -1,11 +1,10 @@
 {
   "name": "cm-inline-complete",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "Inline autocomplete for CodeMirror based on Chrome devtools",
   "main": "dist/bundle.min.js",
   "scripts": {
     "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepublishOnly": "npm run build"
   },
   "keywords": [
@@ -26,5 +25,17 @@
     "babel-preset-env": "^1.6.1",
     "babel-preset-stage-0": "^6.24.1",
     "webpack": "^3.10.0"
-  }
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/remy/inline-complete.git"
+  },
+  "bugs": {
+    "url": "https://github.com/remy/inline-complete/issues"
+  },
+  "homepage": "https://github.com/remy/inline-complete#readme"
 }
